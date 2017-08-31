@@ -1,0 +1,34 @@
+Contact
+  email
+  resume
+  github
+
+Professional
+  Google
+    Chrome
+    YouTube
+  Goldman Sachs
+  TA-ing
+
+Personal
+  NeuroScience
+    First model
+    Java Applet
+    Research
+
+  Projects
+    iGel
+    Airless Breathalyer
+    Foxus
+    Bluetooth App
+
+  Outdoors
+    Biking
+      P2S
+      Coastal Drift
+      MS150
+      RAMROD
+    Climbing
+      Kilimanjaro
+      Lovers Leap
+      NOLS
