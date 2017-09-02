@@ -1,21 +1,18 @@
 Contact
-  email
-  resume
-  github
 
 Professional
   Google
     Chrome
     YouTube
   Goldman Sachs
-  TA-ing
+  Brandeis University
+    NeuroScience
+      First model
+      Java Applet
+      Research
+    TA-ing
 
 Personal
-  NeuroScience
-    First model
-    Java Applet
-    Research
-
   Projects
     iGel
     Airless Breathalyer

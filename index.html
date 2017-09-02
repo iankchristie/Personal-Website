@@ -1,5 +1,35 @@
 <!doctype html>
 
+<!-- Hello you looking at my code! I'm happy to see that you were able to open the
+console and you've taken an interest in the programming. I'll give you the basics overview.
+This is a static single page website that uses relatively little HTML, CSS, and Javascript
+(with JQuery) to produce an interactive, responsive, minimal, and skeuomorphic design.
+Basic design motifs include blue-hue color skeme and rounded corners.
+
+The website is split into two sections -- The information panel and the graph.
+1. The information panel is pretty simple, it's just the renderer for the current
+active information tab.
+2. The graph is the really interesting part. Each project has three different
+classes -- circle, deg, and level.
+* Circle - The circle class will render the div as a circlewith a size that is
+           x% smaller than it's parent. Because each circle is smaller than it's parent we
+           can take advantage of css's recursive nature and don't have to specify sizes for
+           each level. The circle class also puts the circle in the  center of the parent.
+           Circle also has a css hover class for the border box.
+* Deg - This could have been done with javascript but I decided to do it with CSS. The
+        degx will rotate the circle by x, translate it some percent of the parent div size
+        and then rotate the circle by -x to get it back in the correct direction.
+* Level - The level basically just declares the color. It also uses the css multi classing
+          to specify the amount a circle should zoom when it has the zoom class.
+
+That shows the basic UI. The responsiveness comes with the zoom class and JQuery.
+* Zoom - when a div has this class it will enlarge itself with a animation.
+* Javascript - When an element is clicked, JQuery will remove all zoom classes from the DOM
+               and then add zoom classes for the target and all ancestors that are circles.
+               Then it will update the information in the information pane.
+
+And there you have it! Let me know if you have feedback or a more elegant solution! -->
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -10,93 +40,86 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 </head>
 
-<body>
+<body style="font-family: 'Lora', sans-serif;">
 
 <div id="Info">
-    <div id="Heading">Ian Christie</div>
-    <div id="Image">
-      <img id="url" class="Image" src="Profile.jpg" style="border-radius:50%"></img>
-    </div>
+  <div id="Absolute">
+    <h1>Ian Christie</h1>
+  </div>
+  <div id="Heading">
+    <h1>About</h1>
+    <img id="Image" src="Images/Headshot.jpg" style="border-radius:50%"></img>
     <div id="Description">
-      <p>
-        Hello! Welcome to my website!
-        <br>
-        <br>
-        Please click around.
-      </p>
+      Hello! Welcome to my website! Here is the basic info --
+      <br/>
+      <br/>
+      I grew up in Houston, Texas. I went to school in Boston, Massachussetts studying
+      Computer Science and Neuroscience. Now I live in San Francisco working at Google
+      under YouTube Mobile Architecture. In my spare time I run, bike, and rock climb.
+      I want to learn everything.
+      <br/>
+      <br/>
+      Please click and hover around!
     </div>
   </div>
 </div>
 
-<!-- Circles -->
+<!-- Graph -->
 <div id="Graph">
   <div id="Space" class="body">
+    <div id="Contact">
+      <p id="ContactP">Contact</p>
+    </div>
     <div id="square" class="square">
-      <div class="circle deg30 level1" id="Contact">
-        <div class="circle-title">
-          Contact
-        </div>
-        <div class="circle deg30 level2" id="Email">
-          <div class="circle-title hidden">
-            Email
-          </div>
-        </div>
-        <div class="circle deg150 level2" id="Resume">
-          <div class="circle-title hidden">
-            Resume
-          </div>
-        </div>
-        <div class="circle deg270 level2" id="Github">
-          <div class="circle-title hidden">
-            Github
-          </div>
-        </div>
-      </div>
-      <div class="circle deg150 level1" id="Professional">
+      <div class="circle deg0 level1" id="Professional">
         <div class="circle-title">
           Professional
         </div>
         <div class="circle deg30 level2" id="Google">
-          <div class="circle-title hidden">
-            Google
-          </div>
-          <div class="circle deg30 level3" id="YouTube">
-          </div>
-          <div class="circle deg150 level3" id="Chrome"></div>
+          <div class="circle deg0 level3" id="YouTube"></div>
+          <div class="circle deg180 level3" id="Chrome"></div>
         </div>
         <div class="circle deg150 level2" id="GoldmanSachs">
-          <div class="circle-title hidden">
-            Goldman Sachs
-          </div>
         </div>
         <div class="circle deg270 level2" id="BrandeisUniversity">
-          <div class="circle-title hidden">
-            Brandeis University
+          <div class="circle deg30 level3" id="TAing"></div>
+          <div class="circle deg150 level3" id="Neuroscience">
+            <div class="circle deg30 level4" id="FirstModel"></div>
+            <div class="circle deg150 level4" id="JavaApplet"></div>
+            <div class="circle deg270 level4" id="Research"></div>
           </div>
+          <div class="circle deg270 level3" id="Awards"></div>
         </div>
       </div>
-      <div class="circle deg270 level1" id="Personal">
+      <div class="circle deg180 level1" id="Personal">
         <div class="circle-title">
           Personal
         </div>
-        <div class="circle deg30 level2" id="Neuroscience">
-          <div class="circle deg30 level3" id="FirstModel"></div>
-          <div class="circle deg150 level3" id="JavaApplet"></div>
-          <div class="circle deg270 level3" id="Research"></div>
-        </div>
-        <div class="circle deg150 level2" id="Projects">
+        <div class="circle deg0 level2" id="Projects">
           <div class="circle deg45 level3" id="iGel"></div>
           <div class="circle deg135 level3" id="AirlessBreathalyzer"></div>
           <div class="circle deg225 level3" id="BluetoothApp"></div>
           <div class="circle deg315 level3" id="Foxus"></div>
         </div>
-        <div class="circle deg270 level2" id="Outdoor">
-          <div class="circle deg30 level3" id="Biking"></div>
-          <div class="circle deg150 level3" id="Climbing"></div>
-          <div class="circle deg270 level3" id="BoyScouts"></div>
+        <div class="circle deg180 level2" id="Outdoor">
+          <div class="circle deg30 level3" id="BoyScouts"></div>
+          <div class="circle deg150 level3" id="Biking">
+            <div class="circle deg30 level4" id="MS150"></div>
+            <div class="circle deg150 level4" id="BikeAndBuild"></div>
+            <div class="circle deg270 level4" id="RAMROD"></div>
+          </div>
+          <div class="circle deg270 level3" id="Climbing">
+            <div class="circle deg30 level4" id="RockClimbing"></div>
+            <div class="circle deg150 level4" id="MountainClimbing"></div>
+            <div class="circle deg270 level4" id="NOLS"></div>
+          </div>
         </div>
       </div>
     </div>
