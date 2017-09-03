@@ -6,6 +6,21 @@ html, body {
   overflow: hidden;
 }
 
+.tooltip {
+  display: none;
+  position: fixed;
+  padding: .5em 1em;
+  background-color: #f1f1f1;
+  z-index: 15;
+
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+}
+
 .body {
   display: flex;
   align-items: center;

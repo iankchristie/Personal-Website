@@ -2,14 +2,15 @@ var tabs = [];
 // Home
 tabs["Home"] = {
     "heading": "About",
-    "image": "Images/Headshot.jpg",
+    "image": "Images/Landing.jpg",
     "description": ["I grew up in Houston, Texas. I went to school in Boston, Massachussetts studying Computer Science and Neuroscience. Now I live in San Francisco working at Google under YouTube Mobile Architecture. In my spare time I run, bike, and rock climb. I want to learn everything."]
 };
 // Contact
 tabs["Contact"] = {
     "heading": "Contact",
     "image": "Images/Contact.png",
-    "description": ["<a target=\"blank\" href=\"mailto:iankchristie@gmail.com\">email: iankchristie@gmail.com</a>",
+    "description": ["Call me! Maybe?<br/>",
+        "<a target=\"blank\" href=\"mailto:iankchristie@gmail.com\">email: iankchristie@gmail.com</a>",
         "<a target=\"blank\" href=\"https://www.facebook.com/iankchristie\">Facebook: iankchristie</a>",
         "<a target=\"blank\" href=\"https://www.linkedin.com/in/iankchristie/\">Linkedin: iankchristie</a>",
         "<a target=\"blank\" href=\"https://www.github.com/iankchristie\">Github: iankchristie</a>",

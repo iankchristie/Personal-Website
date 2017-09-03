@@ -19,22 +19,40 @@ function zoomSelfAndParents(jQNode) {
     }
 }
 
-$(document).mouseover(function(e) {
-  var id = e.target.id;
-  var target = $(e.target);
+// $(document).mouseover(function(e) {
+//   var id = e.target.id;
+//   var target = $(e.target);
+//
+//   if (id in tabs) {
+//     if (activeTab === "Home") {
+//       setTab(id);
+//       return;
+//     }
+//     var activeTarget = $("#"+activeTab);
+//     if (target.closest(activeTarget).length > 0) {
+//       setTab(id);
+//     }
+//   } else {
+//     setTab(activeTab);
+//   }
+// });
 
-  if (id in tabs) {
-    if (activeTab === "Home") {
-      setTab(id);
-      return;
+$( document ).on( "mousemove", function( event ) {
+  var id = event.target.id;
+  if (id in tabs || id === "Tooltip") {
+    $( ".tooltip" ).css("display", "inline-block");
+    console.log(id);
+    $(".tooltip").css({
+      "left" : event.pageX + 5,
+      "top" : event.pageY + 5
+    });
+    if (id !== "Tooltip") {
+      $("#Tooltip").text(tabs[id].heading);
     }
-    var activeTarget = $("#"+activeTab);
-    if (target.closest(activeTarget).length > 0) {
-      setTab(id);
-    }
-  } else {
-    setTab(activeTab);
-  }
+} else {
+  console.log("Trying to hide");
+  $( ".tooltip" ).css("display", "none");
+}
 });
 
 $(document).click(function(e) {
