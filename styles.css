@@ -21,6 +21,11 @@ html, body {
   border-radius: 6px;
 }
 
+.clickable-div
+{
+     cursor: pointer;
+}
+
 .body {
   display: flex;
   align-items: center;
