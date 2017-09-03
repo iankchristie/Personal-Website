@@ -20,7 +20,7 @@ tabs["Contact"] = {
 // Professional
 tabs["Professional"] = {
     "heading": "Professional",
-    "image": "Images/Professional.JPG",
+    "image": "Images/Professional.jpg",
     "description": ["I'm really good at: data structures, algorithms, data analysis, computer vision, android dev, iOS dev, and communicating.<br/>",
         "I'm really interested in learning more about: web dev, networking, AI, hardware & architecture, natural language processing, security & cryptography, multiprocessing, distributed systems, graphics, robotics, computational geometry, compilers, computer syntax & language structure, quantum computing theory, fixing my collar in photos, neuromorphic software, Global Positioning Systems, compression, everything."
     ],
