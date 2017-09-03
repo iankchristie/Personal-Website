@@ -23,7 +23,7 @@ html, body {
 
 .clickable-div
 {
-     cursor: pointer;
+  cursor: pointer;
 }
 
 .body {
@@ -129,11 +129,16 @@ img {
 
 #Square {
   width: 100vmin;
-  height: 100vmin;
   float: right;
   color: black;
   position: relative;
   text-align: center;
+}
+
+#Square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
 
 .circle {
@@ -298,4 +303,13 @@ img {
   transition: all 200ms ease-in;
   transform: scale(1.7) translate(-20%, 20%);
   z-index: 5;
+}
+
+@media (max-width:600px) {
+  html, body {
+    background-color: red;
+  }
+
+  .level1.deg0 { transform: translate(-50%, -50%) translate(0, 60%); }
+  .level1.deg180 { transform: translate(-50%, -50%) translate(0, -60%); }
 }
