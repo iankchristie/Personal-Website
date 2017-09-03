@@ -41,7 +41,6 @@ $( document ).on( "mousemove", function( event ) {
   var id = event.target.id;
   if (id in tabs || id === "Tooltip") {
     $( ".tooltip" ).css("display", "inline-block");
-    console.log(id);
     $(".tooltip").css({
       "left" : event.pageX + 5,
       "top" : event.pageY + 5
@@ -50,7 +49,6 @@ $( document ).on( "mousemove", function( event ) {
       $("#Tooltip").text(tabs[id].heading);
     }
 } else {
-  console.log("Trying to hide");
   $( ".tooltip" ).css("display", "none");
 }
 });
@@ -79,3 +77,73 @@ $(document).click(function(e) {
         setTab(id);
     }
 });
+
+// function preloadImages(array) {
+//     if (!preloadImages.list) {
+//         preloadImages.list = [];
+//     }
+//     var list = preloadImages.list;
+//     for (var i = 0; i < array.length; i++) {
+//         var img = new Image();
+//         img.onload = function() {
+//             var index = list.indexOf(this);
+//             if (index !== -1) {
+//                 // remove image from the array once it's loaded
+//                 // for memory consumption reasons
+//                 list.splice(index, 1);
+//             }
+//         }
+//         list.push(img);
+//         img.src = array[i];
+//     }
+// }
+//
+// $(document).load(function () {
+//   console.log("On Load");
+//    if (!preloadImages.list) {
+//        preloadImages.list = [];
+//    }
+//    var list = preloadImages.list;
+//    for (var info in tabs) {
+//      console.log(info.image);
+//        var img = new Image();
+//        img.onload = function() {
+//            var index = list.indexOf(this);
+//            if (index !== -1) {
+//                // remove image from the array once it's loaded
+//                // for memory consumption reasons
+//                list.splice(index, 1);
+//            }
+//        }
+//        list.push(img);
+//        img.src = info.image;
+//    }
+// });
+
+//$(document).load(preloadImages);
+
+$(function() {
+  function preloadImages() {
+    if (!preloadImages.list) {
+        preloadImages.list = [];
+    }
+    var list = preloadImages.list;
+    for (var i in tabs) {
+      console.log(tabs[i].image);
+        var img = new Image();
+        img.onload = function() {
+            var index = list.indexOf(this);
+            if (index !== -1) {
+                // remove image from the array once it's loaded
+                // for memory consumption reasons
+                list.splice(index, 1);
+            }
+        }
+        list.push(img);
+        img.src = tabs[i].image;
+    }
+}
+
+preloadImages();
+}
+);
