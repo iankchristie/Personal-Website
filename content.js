@@ -126,7 +126,7 @@ tabs["FirstModel"] = {
     "heading": "First Model",
     "image": "Images/M1.jpg",
     "description": ["My first project was to increase the speed of simulations for a computational model introduced in this <a target=\"blank\" href=\"http://jn.physiology.org/content/111/11/2355.long\">paper</a>.<br/>",
-      "At that time simulations for the model were taking 3 days to complete. We understood that he basic problem was that Matlab was not designed for speed, so our solution was to run the simulations in C++ instead.<br/>",
+      "At that time simulations for the model were taking 3 days to complete. We understood that the basic problem was that Matlab was not designed for speed, so our solution was to run the simulations in C++ instead.<br/>",
       "The design for the solution included a parser to convert the Matlab model representation into C++. C++ classes to represent components of the model. " +
       "A C++ simulation environment that used Eulers Method to approximate differential equations. A Matlab script to visualize CSV data.<br/>",
       "We were able to increase the speed of simulations by 10x! Source code can be seen at my Github here TODO"]
