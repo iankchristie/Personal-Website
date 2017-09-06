@@ -37,7 +37,8 @@ html, body {
   height: 100%;
   position: fixed;
   background: #004564;
-  box-shadow: 0px 0px 10px #000000;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   text-align: center;
   z-index: 12;
 }
@@ -118,7 +119,7 @@ img {
 }
 
 #Contact:hover {
-  box-shadow: 0px 0px 30px #000000;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 #Contact p {
@@ -198,7 +199,7 @@ img {
 .deg315 { transform: translate(-50%, -50%) rotate(315deg) translate(75%) rotate(-315deg); }
 
 .circle:hover {
-  box-shadow: 0px 0px 30px #000000;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .level1 {
@@ -235,7 +236,7 @@ img {
 .level1.zoom {
   top:22%;
   left:24%;
-  box-shadow: 0px 0px 150px #000000;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.5), 0 10px 10px rgba(0,0,0,0.48);
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1.9);
   -ms-transition: all 200ms ease-in;
@@ -250,7 +251,7 @@ img {
 .level2.zoom {
   top:34%;
   left:34%;
-  box-shadow: 0px 0px 150px #000000;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.45), 0 10px 10px rgba(0,0,0,0.43);
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(2.3);
   -ms-transition: all 200ms ease-in;
@@ -265,7 +266,7 @@ img {
 .level3.zoom {
   top:34%;
   left:34%;
-  box-shadow: 0px 0px 150px #000000;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.4), 0 10px 10px rgba(0,0,0,0.38);
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1.7);
   -ms-transition: all 200ms ease-in;
@@ -280,7 +281,7 @@ img {
 .level4.zoom {
   top:34%;
   left:34%;
-  box-shadow: 0px 0px 150px #000000;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.35), 0 10px 10px rgba(0,0,0,0.33);
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1.4);
   -ms-transition: all 200ms ease-in;
@@ -293,7 +294,7 @@ img {
 }
 
 #Contact.zoom {
-  box-shadow: 0px 0px 150px #000000;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1.7);
   -ms-transition: all 200ms ease-in;
