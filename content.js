@@ -136,13 +136,13 @@ tabs["FirstModel"] = {
 };
 // JavaApplet
 tabs["JavaApplet"] = {
-    "heading": "JavaApplet",
-    "image": "Images/SimBrain.png",
+    "heading": "Neuron Model GUI",
+    "image": "Images/GUI.png",
     "description": ["While I was doing a lot of modeling I came across two problems:",
         "<ul><li>It was time consuming and error prone to create models via code.</li>" +
         "<li>It was difficult to communicate how models worked.</li></ul>",
         "The solution to this was a graphical model creation and visualization tool. It was a Java Applet that used drag-and-drop design to create the model in a 2D space and third-party libraries to visualize output of simulations.<br/>",
-        "It was used in my lab and as teaching tool in some classes for visualizing neuronal networks. Source code can be seen at my Github here TODO."
+        "It was used in my lab and as teaching tool in some classes for visualizing neuronal networks. Source code can be seen at my <a target=\"blank\" href=\"https://github.com/iankchristie/NeuronModelGUI\">Github</a>."
     ]
 };
 // Research
@@ -231,7 +231,7 @@ tabs["BluetoothApp"] = {
     "heading": "BluetoothApp",
     "image": "Images/Bluetooth.png",
     "description": ["Before joining Chrome I needed to refresh my knowledge of Anroid development and learn about Bluetooth technology. So I developed a small app that uses peer-to-peer architecture with Bluetooth Classic for transmission to allow to players to play wireless Tic-Tac-Toe.<br/>",
-        "It's a small app but people find it pretty entertaining. The source code can be found at my Github here TODO."
+        "It's a small app but people find it pretty entertaining. The source code can't be found at my Github because of IP law with me and my employer."
     ],
 };
 // Outdoor
