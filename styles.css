@@ -121,7 +121,7 @@ img {
   text-align: left;
   font-size: 100%;
   vertical-align: middle;
-  padding: 10px;
+  padding: 25px;
 }
 
 #Description.mobile {
@@ -406,5 +406,4 @@ img {
   -moz-transform: scale(1.7);
   transition: all 200ms ease-in;
   transform: scale(1.7) translate(-20%, 20%);
-  z-index: 5;
 }
