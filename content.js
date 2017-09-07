@@ -15,7 +15,8 @@ tabs["Contact"] = {
         "<a target=\"blank\" href=\"https://www.linkedin.com/in/iankchristie/\">Linkedin: iankchristie</a>",
         "<a target=\"blank\" href=\"https://www.github.com/iankchristie\">Github: iankchristie</a>",
         "<a target=\"blank\" href=\"Resume.pdf\">Resume</a>"
-    ]
+    ],
+    "visited": 0
 };
 // Professional
 tabs["Professional"] = {
@@ -24,6 +25,7 @@ tabs["Professional"] = {
     "description": ["I'm really good at: data structures, algorithms, data analysis, computer vision, android dev, iOS dev, and communicating.<br/>",
         "I'm really interested in learning more about: web dev, networking, AI, hardware & architecture, natural language processing, security & cryptography, multiprocessing, distributed systems, graphics, robotics, computational geometry, compilers, computer syntax & language structure, quantum computing theory, fixing my collar in photos, neuromorphic software, Global Positioning Systems, compression, everything."
     ],
+    "visited": 0
 };
 // Google
 tabs["Google"] = {
@@ -200,7 +202,10 @@ tabs["Awards"] = {
 tabs["Personal"] = {
     "heading": "Personal",
     "image": "Images/Personal.jpg",
-    "description": ["I like to think that I'm a generally interesting person."]
+    "description": ["I like to think that I'm a interesting person.<br/>",
+        "Most of my time is spent working, exercising, or sleeping. Though occasionally I've been known to socialize as well. Along with everyone I consider myself a film and music critic. Recently, I've been diving into physics books and documentaries. I try to better myself and learn whenever I can."
+      ],
+      "visited": 0
 };
 // Projects
 tabs["Projects"] = {

@@ -78,6 +78,7 @@ function zoomSelfAndParents(jQNode) {
 // Takes an info tab object and updates the information tab.
 function setTab(activeId) {
     var tabInfo = tabs[activeId];
+    $("#"+activeId).addClass("visited");
     $("#Info h1").text(tabInfo.heading);
     $("#Image").attr("src", tabInfo.image);
     $("#Description").empty();

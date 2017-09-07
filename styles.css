@@ -293,16 +293,32 @@ img {
   background-color: rgba(64, 64, 64, 0.85);
 }
 
+.level1.visited {
+  background-color: rgba(139,0,0,.85);
+}
+
 .level2 {
   background-color: rgba(232,232,232, .99);
+}
+
+.level2.visited {
+  background-color: rgba(255,133,133, .99);
 }
 
 .level3 {
   background-color: rgba(64, 64, 64, 0.99);
 }
 
+.level3.visited {
+  background-color: rgba(139,0,0,.85);;
+}
+
 .level4 {
   background-color: rgba(232,232,232, .99);
+}
+
+.level4.visited {
+  background-color: rgba(255,133,133, .99);
 }
 
 .circle.level1.mobile {
@@ -361,6 +377,7 @@ img {
   top:34%;
   left:34%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.45), 0 10px 10px rgba(0,0,0,0.43);
+  background-color: rgba(232,232,232, .99);
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(2.3);
   -ms-transition: all 200ms ease-in;
@@ -376,6 +393,7 @@ img {
   top:34%;
   left:34%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.4), 0 10px 10px rgba(0,0,0,0.38);
+  background-color: rgba(64, 64, 64, 0.99);
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1.7);
   -ms-transition: all 200ms ease-in;
@@ -391,6 +409,7 @@ img {
   top:34%;
   left:34%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.35), 0 10px 10px rgba(0,0,0,0.33);
+  background-color: rgba(232,232,232, .99);
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1.4);
   -ms-transition: all 200ms ease-in;
