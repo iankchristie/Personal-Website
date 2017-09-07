@@ -27,7 +27,5 @@ $(function() {
     $("#Personal").removeClass("deg180");
     $("#Personal").addClass("deg270");
     $("#Personal").addClass("mobile");
-  } else {
-    $("#MobileName").hide();
   }
 });
