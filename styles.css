@@ -83,13 +83,17 @@ html, body {
   overflow-y: auto;
 }
 
+#Info.mobile {
+  width: 95%;
+}
+
 #Info h1 {
   font-size: 300%;
   vertical-align: middle;
 }
 
 #Info.mobile h1 {
-  font-size: 300%;
+  font-size: 350%;
   vertical-align: middle;
 }
 
