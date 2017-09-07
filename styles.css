@@ -145,7 +145,7 @@ img {
   text-align: center;
   display: table;
   background-color: #c5fffd;
-  z-index: 10;
+  z-index: 2;
 
   /*Animation for after zoom.*/
   -webkit-transition: all 200ms ease-in;
@@ -290,8 +290,8 @@ img {
 }
 
 .circle.level1.mobile {
-  width: 48%;
-  height: 48%;
+  width: 40%;
+  height: 40%;
 }
 
 .circle.level2 {
@@ -311,7 +311,7 @@ img {
 
 .level1.zoom {
   top:22%;
-  left:28%;
+  left:31%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.5), 0 10px 10px rgba(0,0,0,0.48);
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1.9);
@@ -321,6 +321,21 @@ img {
   -moz-transform: scale(1.9);
   transition: all 200ms ease-in;
   transform: scale(1.9);
+  z-index: 3;
+}
+
+.level1.mobile.zoom {
+  top:30%;
+  left:31%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.5), 0 10px 10px rgba(0,0,0,0.48);
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(2.3);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(2.3);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(2.3);
+  transition: all 200ms ease-in;
+  transform: scale(2.3);
   z-index: 3;
 }
 
