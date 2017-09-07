@@ -294,7 +294,7 @@ img {
 }
 
 .level1.visited {
-  background-color: rgba(139,0,0,.85);
+  background-color: rgba(100, 64, 64, 0.85);
 }
 
 .level2 {
@@ -302,7 +302,7 @@ img {
 }
 
 .level2.visited {
-  background-color: rgba(255,133,133, .99);
+  background-color: rgba(255, 200, 200, .99);
 }
 
 .level3 {
@@ -310,7 +310,7 @@ img {
 }
 
 .level3.visited {
-  background-color: rgba(139,0,0,.85);;
+  background-color: rgba(100, 64, 64, 0.85);
 }
 
 .level4 {
@@ -318,7 +318,7 @@ img {
 }
 
 .level4.visited {
-  background-color: rgba(255,133,133, .99);
+  background-color: rgba(255, 200, 200, .99);
 }
 
 .circle.level1.mobile {
