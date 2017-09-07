@@ -12,6 +12,10 @@ html, body {
   overflow: hidden;
 }
 
+a {
+  color: rgb(255,255,255)
+}
+
 .tooltip {
   display: none;
   position: fixed;
@@ -69,6 +73,7 @@ html, body {
 
 #MobileName h1 {
   font-size: 13vw;
+  margin: 10px;
 }
 
 #Info {
