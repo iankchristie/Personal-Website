@@ -13,6 +13,7 @@ $(function() {
     $("#Tooltip").remove();
     $("#InfoPane").addClass("mobile");
     $("#Name").hide();
+    $("#MobileName").show();
     $("#Info").addClass("mobile");
     $("#Description").addClass("mobile");
     $("#Graph").addClass("mobile");
