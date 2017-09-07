@@ -1,3 +1,5 @@
+
+
 // Image caching to remove jankiness.
 $(function() {
   function preloadImages() {
@@ -6,7 +8,7 @@ $(function() {
     }
     var list = preloadImages.list;
     for (var i in tabs) {
-      console.log(tabs[i].image);
+      //console.log(tabs[i].image);
         var img = new Image();
         img.onload = function() {
             var index = list.indexOf(this);
