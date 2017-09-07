@@ -10,11 +10,11 @@ tabs["Contact"] = {
     "heading": "Contact",
     "image": "Images/Contact.png",
     "description": ["Call me! Maybe?<br/>",
-        "<a target=\"blank\" href=\"mailto:iankchristie@gmail.com\">email: iankchristie@gmail.com</a>",
-        "<a target=\"blank\" href=\"https://www.facebook.com/iankchristie\">Facebook: iankchristie</a>",
-        "<a target=\"blank\" href=\"https://www.linkedin.com/in/iankchristie/\">Linkedin: iankchristie</a>",
-        "<a target=\"blank\" href=\"https://www.github.com/iankchristie\">Github: iankchristie</a>",
-        "<a target=\"blank\" href=\"Resume.pdf\">Resume</a>"
+        "<a target=\"blank\" href=\"mailto:iankchristie@gmail.com\" style=\"color: rgb(255,255,255)\">email: iankchristie@gmail.com</a>",
+        "<a target=\"blank\" href=\"https://www.facebook.com/iankchristie\" style=\"color: rgb(255,255,255)\">Facebook: iankchristie</a>",
+        "<a target=\"blank\" href=\"https://www.linkedin.com/in/iankchristie/\" style=\"color: rgb(255,255,255)\">Linkedin: iankchristie</a>",
+        "<a target=\"blank\" href=\"https://www.github.com/iankchristie\" style=\"color: rgb(255,255,255)\">Github: iankchristie</a>",
+        "<a target=\"blank\" href=\"Resume.pdf\" style=\"color: rgb(255,255,255)\">Resume</a>"
     ]
 };
 // Professional
