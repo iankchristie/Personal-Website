@@ -99,6 +99,18 @@ tabs["GoldmanSachs"] = {
         "It was my first experience software engineering and I learned a lot of new technologies, concepts, and patterns. But my biggest learning was about the banking system, the culture of NYC, and what drives human progress."
     ]
 };
+// WebApp
+tabs["WebApp"] = {
+    "heading": "Web App Gamification",
+    "image": "Images/Star.png",
+    "description": ["I developed UX enhancement to increase usability by surfacing more used items for a visual database querying web application on front and back end."]
+};
+// Chat
+tabs["Chat"] = {
+    "heading": "Symphony Chat",
+    "image": "Images/Symphony.jpg",
+    "description": ["I integrated Symphony chat into sale services applications to increase usability, further community involvement, and reduce strain on developers."]
+};
 // BrandeisUniversity
 tabs["BrandeisUniversity"] = {
     "heading": "Brandeis University",

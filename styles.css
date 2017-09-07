@@ -41,6 +41,10 @@ a {
   justify-content: center;
 }
 
+.font {
+  font-family: 'Raleway', sans-serif;
+}
+
 #InfoPane {
   width: 33%;
   height: 100%;
