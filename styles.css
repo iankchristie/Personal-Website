@@ -286,7 +286,7 @@ img {
 }
 
 .level1 {
-  background-color: rgba(64, 64, 64, 0.99);
+  background-color: rgba(64, 64, 64, 0.85);
 }
 
 .level2 {
@@ -325,6 +325,7 @@ img {
   top:22%;
   left:23%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.5), 0 10px 10px rgba(0,0,0,0.48);
+  background-color: rgba(64, 64, 64, 0.99);
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1.9);
   -ms-transition: all 200ms ease-in;
@@ -340,6 +341,7 @@ img {
   top:30%;
   left:31%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.5), 0 10px 10px rgba(0,0,0,0.48);
+  background-color: rgba(64, 64, 64, 0.99);
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(2.3);
   -ms-transition: all 200ms ease-in;

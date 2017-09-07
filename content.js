@@ -10,7 +10,7 @@ tabs["Contact"] = {
     "heading": "Contact",
     "image": "Images/Contact.png",
     "description": ["Call me! Maybe?<br/>",
-        "<a target=\"blank\" href=\"mailto:iankchristie@gmail.com\">email: iankchristie@gmail.com</a>",
+        "<a target=\"blank\" href=\"mailto:iankchristie@gmail.com\">Email: iankchristie@gmail.com</a>",
         "<a target=\"blank\" href=\"https://www.facebook.com/iankchristie\">Facebook: iankchristie</a>",
         "<a target=\"blank\" href=\"https://www.linkedin.com/in/iankchristie/\">Linkedin: iankchristie</a>",
         "<a target=\"blank\" href=\"https://www.github.com/iankchristie\">Github: iankchristie</a>",
