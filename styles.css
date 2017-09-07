@@ -102,7 +102,7 @@ a {
 #Info h1 {
   font-size: 300%;
   vertical-align: middle;
-
+  margin: 5px;
 }
 
 #Info.mobile h1 {
