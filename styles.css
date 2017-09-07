@@ -32,7 +32,7 @@ html, body {
   justify-content: center;
 }
 
-#LeftPane {
+#InfoPane {
   width: 33%;
   height: 100%;
   position: fixed;
@@ -43,10 +43,25 @@ html, body {
   z-index: 12;
 }
 
-#Name h1 {
+#InfoPane.mobile {
+  width: 100%;
+  height: 33%;
+  top: 67%;
+}
+
+.name h1 {
   font-size: 5vw;
   margin: 10px;
   display: inline-block;
+}
+
+#MobileName {
+  position: absolute;
+  top: 0;
+}
+
+#MobileName h1 {
+  font-size: 13vw;
 }
 
 #Info {
@@ -66,7 +81,12 @@ html, body {
 }
 
 #Info h1 {
-  font-size: 200%;
+  font-size: 300%;
+  vertical-align: middle;
+}
+
+#Info.mobile h1 {
+  font-size: xx-large;
   vertical-align: middle;
 }
 
@@ -84,9 +104,20 @@ img {
   padding: 10px;
 }
 
+#Description.mobile {
+  font-size: x-large;
+}
+
 #Graph {
     width: 67%;
     height: auto;
+    position: absolute;
+    right: 0;
+}
+
+#Graph.mobile {
+    width: 100%;
+    height: 66%;
     position: absolute;
     right: 0;
 }
@@ -107,7 +138,9 @@ img {
   text-align: center;
   display: table;
   background-color: #c5fffd;
+  z-index: 10;
 
+  /*Animation for after zoom.*/
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1);
   -ms-transition: all 200ms ease-in;
@@ -116,6 +149,17 @@ img {
   -moz-transform: scale(1);
   transition: all 200ms ease-in;
   transform: scale(1);
+}
+
+#Contact.mobile {
+  top:15%;
+  right:4%;
+  width: 150px;
+  height: 150px;
+}
+
+#Contact.mobile p {
+  font-size: 200%;
 }
 
 #Contact:hover {
@@ -142,6 +186,10 @@ img {
   padding-bottom: 100%;
 }
 
+#Square.mobile {
+  transform: translateY(-20%);
+}
+
 .circle {
   position: absolute;
   width: 55%;
@@ -151,6 +199,7 @@ img {
   transform: translate(-50%, -50%);
   border-radius: 50%;
 
+  /*Animation for after zoom.*/
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1);
   -ms-transition: all 200ms ease-in;
@@ -170,8 +219,15 @@ img {
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
 }
-.circle-title.hidden {
-  display: none;
+
+.circle-title.mobile {
+  font-size: 200%;
+  position:absolute;
+  color: black;
+  left:50%;
+  top:7%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
 }
 
 .circle > span {
@@ -181,6 +237,14 @@ img {
 /* Two items. */
 .deg0 { transform: translate(-50%, -50%) translate(60%); }
 .deg180 { transform: translate(-50%, -50%) translate(-60%); }
+
+/* Two items vertical. Used for mobile.*/
+.deg90.mobile { transform: translate(-50%, -50%) translateY(-60%); }
+.deg270.mobile { transform: translate(-50%, -50%) translateY(60%); }
+
+/* Mobile two items. */
+.deg90 { transform: translate(-50%, -50%) translateY(-60%); }
+.deg270 { transform: translate(-50%, -50%) translateY(60%); }
 
 /* Three items accounting for title. */
 .deg30.level2 { transform: translate(-50%, -30%) rotate(30deg) translate(66%) rotate(-30deg); }
@@ -218,6 +282,11 @@ img {
   background-color: red;
 }
 
+.circle.level1.mobile {
+  width: 40%;
+  height: 40%;
+}
+
 .circle.level2 {
   width: 35%;
   height: 35%;
@@ -235,7 +304,7 @@ img {
 
 .level1.zoom {
   top:22%;
-  left:24%;
+  left:28%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.5), 0 10px 10px rgba(0,0,0,0.48);
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1.9);
