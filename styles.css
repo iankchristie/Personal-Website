@@ -243,7 +243,6 @@ img {
 .circle-title.mobile {
   font-size: 200%;
   position:absolute;
-  color: black;
   left:50%;
   top:7%;
   transform: translateX(-50%);
