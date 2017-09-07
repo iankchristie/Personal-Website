@@ -89,7 +89,7 @@ html, body {
 }
 
 #Info.mobile h1 {
-  font-size: xx-large;
+  font-size: 300%;
   vertical-align: middle;
 }
 
@@ -108,7 +108,7 @@ img {
 }
 
 #Description.mobile {
-  font-size: xx-large;
+  font-size: 250%;
 }
 
 #Graph {
@@ -242,8 +242,8 @@ img {
 .deg180 { transform: translate(-50%, -50%) translate(-60%); }
 
 /* Two items vertical. Used for mobile.*/
-.deg90.mobile { transform: translate(-50%, -50%) translateY(-60%); }
-.deg270.mobile { transform: translate(-50%, -50%) translateY(60%); }
+.deg90.mobile { transform: translate(-50%, -50%) translateY(-55%); }
+.deg270.mobile { transform: translate(-50%, -50%) translateY(55%); }
 
 /* Mobile two items. */
 .deg90 { transform: translate(-50%, -50%) translateY(-60%); }
@@ -286,8 +286,8 @@ img {
 }
 
 .circle.level1.mobile {
-  width: 40%;
-  height: 40%;
+  width: 48%;
+  height: 48%;
 }
 
 .circle.level2 {
