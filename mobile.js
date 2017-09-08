@@ -11,6 +11,7 @@ $(function() {
   if(isMobile) {
     console.log("Doing Mobile work");
     $("#Tooltip").remove();
+    $("#BackgroundImage").css("background-size", "cover");
     $("#InfoPane").addClass("mobile");
     $("#Name").hide();
     $("#MobileName").show();
