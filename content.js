@@ -116,7 +116,7 @@ tabs["Chat"] = {
 // BrandeisUniversity
 tabs["BrandeisUniversity"] = {
     "heading": "Brandeis University",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Brandeis_University_seal.svg/480px-Brandeis_University_seal.svg.png",
+    "image": "Images/Brandeis.jpg",
     "description": ["I went to Brandeis University and double majored in Computer Science and Neuroscience.<br/>",
         "Much of my focus was on how computing can help the field of neuroscience rather than neuroscience applications in computing.<br/>",
         "Through computational modeling I discovered the joys of developing, which has lead my on my current software engineering path.<br/>"
