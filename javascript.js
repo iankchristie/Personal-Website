@@ -1,59 +1,32 @@
 
-var count = 0;
-var doneCaching = false;
+
 // Image caching to remove jankiness.
 $(function() {
-  function preload(src, list) {
-    var img = new Image();
-    img.onload = function() {
-        var index = list.indexOf(this);
-        if (index !== -1) {
-            // remove image from the array once it's loaded
-            // for memory consumption reasons
-            list.splice(index, 1);
-            console.log(count++);
-            if (count === Object.keys(tabs).length + 1) {
-              doneCaching = true;
-            }
-            if (doneCaching) {
-              console.log("DONE");
-            }
-        }
-    }
-    list.push(img);
-    img.src = src;
-  }
-
   function preloadImages() {
     if (!preloadImages.list) {
         preloadImages.list = [];
     }
     var list = preloadImages.list;
-    console.log(Object.keys(tabs).length);
     for (var i in tabs) {
       //console.log(tabs[i].image);
-      preload(tabs[i].image, list);
+        var img = new Image();
+        img.onload = function() {
+            var index = list.indexOf(this);
+            if (index !== -1) {
+                // remove image from the array once it's loaded
+                // for memory consumption reasons
+                list.splice(index, 1);
+            }
+        }
+        list.push(img);
+        img.src = tabs[i].image;
     }
-    preload("Images/Background.jpg", list);
   }
 
   preloadImages();
 });
 
-function removeLandingPage() {
-  if (doneCaching) {
-    console.log("removeLandingPage");
-    $("#Landing").hide();
-    $("#LandingPageWrapper").show();
-    return;
-  }
-  setTimeout(function() {
-    removeLandingPage();
-  }, 2000);
-}
-
-removeLandingPage();
-// Handles the tooltip.
+// Handles the tooltip. Only show when inside a circle.
 $( document ).on( "mousemove", function( event ) {
   var id = event.target.id;
   if (id in tabs || id === "Tooltip") {
@@ -70,6 +43,7 @@ $( document ).on( "mousemove", function( event ) {
 }
 });
 
+// This handles the parrallax background.
 $(document).ready(function() {
   var movementStrength = 10;
   var height = movementStrength / $(window).height();

@@ -45,97 +45,94 @@ And there you have it! Let me know if you have feedback or a more elegant soluti
 
 <body>
 
-<div id="Landing">Ian Christie</div>
+<div id="Tooltip" class="tooltip">I'm a tooltip!</div>
+<div id="BackgroundImage"></div>
 
-<div id="LandingPageWrapper">
-  <div id="Tooltip" class="tooltip">I'm a tooltip!</div>
-  <div id="BackgroundImage"></div>
-  <div id="InfoPane">
-    <div id="Name" class="font">
-      <h1>Ian Christie</h1>
-    </div>
-    <div id="Info">
-      <h1 class="font">Welcome</h1>
-      <img id="Image" src="Images/Landing.jpg"></img>
-      <div id="Description">
-        Hello! Welcome to my website! Basically just an excuse to play around with
-        some css tricks and showcase some of my skills.
-        <br/>
-        <br/>
-        I really like the idea of organizing projects based on hierarchies so I
-        created a hierarchical graph of myself. Feel free to hover around and click
-        on anything that looks interesting. The project information will appear here.
-        Circles will appear red after you visit them to help you keep track of where you've been.
-        <br/>
-        <br/>
-        Have fun! Hope you like it, and if you have any feedback please contact me!
-      </div>
+<div id="InfoPane">
+  <div id="Name" class="font">
+    <h1>Ian Christie</h1>
+  </div>
+  <div id="Info">
+    <h1 class="font">Welcome</h1>
+    <img id="Image" src="Images/Landing.jpg"></img>
+    <div id="Description">
+      Hello! Welcome to my website! Basically just an excuse to play around with
+      some css tricks and showcase some of my skills.
+      <br/>
+      <br/>
+      I really like the idea of organizing projects based on hierarchies so I
+      created a hierarchical graph of myself. Feel free to hover around and click
+      on anything that looks interesting. The project information will appear here.
+      Circles will appear red after you visit them to help you keep track of where you've been.
+      <br/>
+      <br/>
+      Have fun! Hope you like it, and if you have any feedback please contact me!
     </div>
   </div>
+</div>
 
-  <!-- Graph -->
-  <div id="Graph" class="clickable-div">
-    <div id="Space" class="body clickable-div">
-      <div id="MobileName" class="name font" style="display:none;">
-        <h1>Ian Christie</h1>
-      </div>
-      <div id="Contact" class="clickable-div">
-        <p id="ContactP">Contact</p>
-      </div>
-      <div id="Square" class="clickable-div">
-        <div class="circle deg0 level1 clickable-div" id="Professional">
-          <div class="circle-title">
-            Professional
+<!-- Graph -->
+<div id="Graph" class="clickable-div">
+  <div id="Space" class="body clickable-div">
+    <div id="MobileName" class="name font" style="display:none;">
+      <h1>Ian Christie</h1>
+    </div>
+    <div id="Contact" class="clickable-div">
+      <p id="ContactP">Contact</p>
+    </div>
+    <div id="Square" class="clickable-div">
+      <div class="circle deg0 level1 clickable-div" id="Professional">
+        <div class="circle-title">
+          Professional
+        </div>
+        <div class="circle deg30 level2 clickable-div" id="Google">
+          <div class="circle deg0 level3 clickable-div" id="YouTube">
+            <div class="circle deg30 level4 clickable-div" id="Interleaving"></div>
+            <div class="circle deg150 level4 clickable-div" id="Migration"></div>
+            <div class="circle deg270 level4 clickable-div" id="LightweightData"></div>
           </div>
-          <div class="circle deg30 level2 clickable-div" id="Google">
-            <div class="circle deg0 level3 clickable-div" id="YouTube">
-              <div class="circle deg30 level4 clickable-div" id="Interleaving"></div>
-              <div class="circle deg150 level4 clickable-div" id="Migration"></div>
-              <div class="circle deg270 level4 clickable-div" id="LightweightData"></div>
-            </div>
-            <div class="circle deg180 level3 clickable-div" id="Chrome">
-              <div class="circle deg45 level4 clickable-div" id="FatBeacon"></div>
-              <div class="circle deg135 level4 clickable-div" id="Sharing"></div>
-              <div class="circle deg225 level4 clickable-div" id="ShareSheet"></div>
-              <div class="circle deg315 level4 clickable-div" id="PrototypeApp"></div>
-            </div>
-          </div>
-          <div class="circle deg150 level2 clickable-div" id="GoldmanSachs">
-            <div class="circle deg0 level3 clickable-div" id="WebApp"></div>
-            <div class="circle deg180 level3 clickable-div" id="Chat"></div>
-          </div>
-          <div class="circle deg270 level2 clickable-div" id="BrandeisUniversity">
-            <div class="circle deg30 level3 clickable-div" id="TAing"></div>
-            <div class="circle deg150 level3 clickable-div" id="Neuroscience">
-              <div class="circle deg30 level4 clickable-div" id="FirstModel"></div>
-              <div class="circle deg150 level4 clickable-div" id="JavaApplet"></div>
-              <div class="circle deg270 level4 clickable-div" id="Research"></div>
-            </div>
-            <div class="circle deg270 level3 clickable-div" id="Awards"></div>
+          <div class="circle deg180 level3 clickable-div" id="Chrome">
+            <div class="circle deg45 level4 clickable-div" id="FatBeacon"></div>
+            <div class="circle deg135 level4 clickable-div" id="Sharing"></div>
+            <div class="circle deg225 level4 clickable-div" id="ShareSheet"></div>
+            <div class="circle deg315 level4 clickable-div" id="PrototypeApp"></div>
           </div>
         </div>
-        <div class="circle deg180 level1 clickable-div" id="Personal">
-          <div class="circle-title">
-            Personal
+        <div class="circle deg150 level2 clickable-div" id="GoldmanSachs">
+          <div class="circle deg0 level3 clickable-div" id="WebApp"></div>
+          <div class="circle deg180 level3 clickable-div" id="Chat"></div>
+        </div>
+        <div class="circle deg270 level2 clickable-div" id="BrandeisUniversity">
+          <div class="circle deg30 level3 clickable-div" id="TAing"></div>
+          <div class="circle deg150 level3 clickable-div" id="Neuroscience">
+            <div class="circle deg30 level4 clickable-div" id="FirstModel"></div>
+            <div class="circle deg150 level4 clickable-div" id="JavaApplet"></div>
+            <div class="circle deg270 level4 clickable-div" id="Research"></div>
           </div>
-          <div class="circle deg0 level2 clickable-div" id="Projects">
-            <div class="circle deg45 level3 clickable-div" id="iGel"></div>
-            <div class="circle deg135 level3 clickable-div" id="AirlessBreathalyzer"></div>
-            <div class="circle deg225 level3 clickable-div" id="BluetoothApp"></div>
-            <div class="circle deg315 level3 clickable-div" id="Foxus"></div>
+          <div class="circle deg270 level3 clickable-div" id="Awards"></div>
+        </div>
+      </div>
+      <div class="circle deg180 level1 clickable-div" id="Personal">
+        <div class="circle-title">
+          Personal
+        </div>
+        <div class="circle deg0 level2 clickable-div" id="Projects">
+          <div class="circle deg45 level3 clickable-div" id="iGel"></div>
+          <div class="circle deg135 level3 clickable-div" id="AirlessBreathalyzer"></div>
+          <div class="circle deg225 level3 clickable-div" id="BluetoothApp"></div>
+          <div class="circle deg315 level3 clickable-div" id="Foxus"></div>
+        </div>
+        <div class="circle deg180 level2 clickable-div" id="Outdoor">
+          <div class="circle deg30 level3 clickable-div" id="BoyScouts"></div>
+          <div class="circle deg150 level3 clickable-div" id="Biking">
+            <div class="circle deg30 level4 clickable-div" id="MS150"></div>
+            <div class="circle deg150 level4 clickable-div" id="BikeAndBuild"></div>
+            <div class="circle deg270 level4 clickable-div" id="RAMROD"></div>
           </div>
-          <div class="circle deg180 level2 clickable-div" id="Outdoor">
-            <div class="circle deg30 level3 clickable-div" id="BoyScouts"></div>
-            <div class="circle deg150 level3 clickable-div" id="Biking">
-              <div class="circle deg30 level4 clickable-div" id="MS150"></div>
-              <div class="circle deg150 level4 clickable-div" id="BikeAndBuild"></div>
-              <div class="circle deg270 level4 clickable-div" id="RAMROD"></div>
-            </div>
-            <div class="circle deg270 level3 clickable-div" id="Climbing">
-              <div class="circle deg30 level4 clickable-div" id="RockClimbing"></div>
-              <div class="circle deg150 level4 clickable-div" id="MountainClimbing"></div>
-              <div class="circle deg270 level4 clickable-div" id="NOLS"></div>
-            </div>
+          <div class="circle deg270 level3 clickable-div" id="Climbing">
+            <div class="circle deg30 level4 clickable-div" id="RockClimbing"></div>
+            <div class="circle deg150 level4 clickable-div" id="MountainClimbing"></div>
+            <div class="circle deg270 level4 clickable-div" id="NOLS"></div>
           </div>
         </div>
       </div>
