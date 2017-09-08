@@ -43,6 +43,19 @@ $( document ).on( "mousemove", function( event ) {
 }
 });
 
+$(document).ready(function() {
+  var movementStrength = 10;
+  var height = movementStrength / $(window).height();
+  var width = movementStrength / $(window).width();
+  $(document).mousemove(function(e){
+    var pageX = e.pageX - ($(window).width() / 2);
+    var pageY = e.pageY - ($(window).height() / 2);
+    var newvalueX = width * pageX * -1 - 25;
+    var newvalueY = height * pageY * -1 - 50;
+    $('#BackgroundImage').css("background-position", newvalueX+"px "+newvalueY+"px");
+  });
+});
+
 // Handles zooming. Remove the zooming class from all elements, then add it to
 // the current circle and all parent circles.
 $(document).click(function(e) {
