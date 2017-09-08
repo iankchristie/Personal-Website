@@ -167,7 +167,8 @@ tabs["Research"] = {
         "We created a generalizable model of a neuronal circuit that would take realistic input and output a firing rate. The firing rates of the system could be categorized. So each model could be thought of as an n-dimensional point in space where each dimension was a parameter to the model and that point could be classified.",
         "So we scanned and classified the parameter space using Brandeis's Computational Cluster. Then we determined plasticity rules that would allow the model to go from one point in space to another simulating training experience.<br/>",
         "We found two models that fit biological data and made measurable predictions. Wet lab analysis is verifying those models currently.<br/>",
-        "The research was used as my senior thesis and was awared <b>Highest Honors</b> and <b>The Division of Science Award for Outstanding Scientific Research</b>. The research was published by the Journal of Neuroscience <a target=\"blank\" href=\"https://www.ncbi.nlm.nih.gov/pubmed/28515285\">here</a>. Source code can be found at my <a target=\"blank\" href=\"https://github.com/iankchristie/Neuroscience\">Github</a>."
+        "The research was used as my senior thesis and was awared <i>Highest Honors</i> and <i>The Division of Science Award for Outstanding Scientific Research</i>. The research was published by the Journal of Neuroscience <a target=\"blank\" href=\"https://www.ncbi.nlm.nih.gov/pubmed/28515285\">here</a>. It received recognition from <a target=\"blank\" href=\"http://blogs.brandeis.edu/science/2017/06/05/learning-to-see/\">Brandeis</a> " +
+         "and the <a target=\"blank\" href=\"https://www.facebook.com/JournalofNeurophysiology/photos/a.312797488894767.1073741828.290827221091794/830765037098007/?type=3\">Journal</a>. Source code can be found at my <a target=\"blank\" href=\"https://github.com/iankchristie/Neuroscience\">Github</a>."
     ]
 };
 // TAing
@@ -189,12 +190,13 @@ tabs["Awards"] = {
     "description": ["<ul><li>Highest Honors</li>" +
         "<li>National Institute of Health Computational Neuroscience Trainee Grant</li>" +
         "<li>Lerman-Neubauer Fellowship</li>" +
-        "<li>Brandeis Academic Achievement Award</li>" +
+        "<li><a target=\"blank\" href=\"http://www.brandeis.edu/now/2014/may/baa.html\">Brandeis Academic Achievement Award</a></li>" +
         "<li>Max Chretien Award in Computer Science</li>" +
         "<li>Division of Science Prize for Outstanding Research Accomplishment in Neuroscience</li>" +
         "<li>Dean's List</li>" +
         "<li>Phi Beta Kappa</li>" +
-        "<li>Summa Cum Laude</li></ul><br/>",
+        "<li>Summa Cum Laude</li>" +
+        "<li><a target=\"blank\" href=\"http://www.houstonisd.org/domain/42275\">Feature High School Alumni</a></li></ul><br/>",
         "* Friend in the photo is Grady who helped me design this website."
     ]
 };
