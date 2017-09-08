@@ -11,6 +11,10 @@ a {
   color: rgb(255,255,255)
 }
 
+#LandingPageWrapper {
+  display: none;
+}
+
 .tooltip {
   display: none;
   position: fixed;
@@ -138,7 +142,7 @@ img {
 }
 
 #Description.mobile.android {
-  font-size: 150%;
+  font-size: 100%;
 }
 
 #Graph {
