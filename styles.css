@@ -137,6 +137,10 @@ img {
   font-size: 250%;
 }
 
+#Description.mobile.android {
+  font-size: 150%;
+}
+
 #Graph {
     width: 67%;
     height: auto;
