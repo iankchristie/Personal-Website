@@ -251,7 +251,7 @@ tabs["BluetoothApp"] = {
     "heading": "BluetoothApp",
     "image": "Images/Bluetooth.png",
     "description": ["Before joining Chrome I needed to refresh my knowledge of Anroid development and learn about Bluetooth technology. So I developed a small app that uses peer-to-peer architecture with Bluetooth Classic for transmission to allow two players to play wireless Tic-Tac-Toe.<br/>",
-        "It's a small app but people find it pretty entertaining. The source code can't be found at my Github because of IP law with me and my employer."
+        "It's a small app but people find it pretty entertaining. The source code is available at my <a target=\"blank\" href=\"https://github.com/iankchristie/BtP2P\">Github</a>."
     ],
 };
 // Outdoor
