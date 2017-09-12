@@ -22,7 +22,7 @@ tabs["Contact"] = {
 tabs["Professional"] = {
     "heading": "Professional",
     "image": "Images/Professional.jpg",
-    "description": ["I'm really good at: Java, Objective-C, Matlab, Bluetooth technologies, git, data structures, algorithms, data analysis, android dev, iOS dev, mac. I also have excellent leadership, communication, and presentation skills.<br/>",
+    "description": ["I'm really good at: Java, Objective-C, Matlab, Bluetooth technologies, git, data structures, algorithms, data analysis, Android dev, iOS dev, Mac. I also have excellent leadership, communication, and presentation skills.<br/>",
         "I'm familiar with: Python, SQL, C++, C, JNI, Scheme, Javascript, AngularJS, NodeJs, image processing, AppEngine, MapReduce, Firebase, web dev, Linux Clusters, and Linux.<br/>",
         "I'm really interested in learning more about: networking, AI, hardware & architecture, natural language processing, security & cryptography, multiprocessing, distributed systems, graphics, robotics, computational geometry, compilers, computer syntax & language structure, quantum computing theory, fixing my collar in photos, neuromorphic software, global positioning systems, compression, everything."
     ],
@@ -79,7 +79,7 @@ tabs["YouTube"] = {
 tabs["Interleaving"] = {
     "heading": "Offline Interleaving",
     "image": "Images/Interleaving.png",
-    "description": ["Completed end-to-end intelligent playlist sync strategy to ensure that Youtube Red and emerging market users consistently have access to offline content. The prroject included designing, implementing, test planning, A/B experimentation on release, and analysis."]
+    "description": ["I completed an end-to-end intelligent playlist sync strategy to ensure that Youtube Red and emerging market users consistently have access to offline content. The project included designing, implementing, test planning, A/B experimentation on release, and analysis."]
 };
 // Migration
 tabs["Migration"] = {
@@ -197,7 +197,7 @@ tabs["Awards"] = {
         "<li>National Institute of Health Computational Neuroscience Trainee Grant</li>" +
         "<li>Lerman-Neubauer Fellowship</li>" +
         "<li><a target=\"blank\" href=\"http://www.brandeis.edu/now/2014/may/baa.html\">Brandeis Academic Achievement Award</a></li>" +
-        "<li><a target=\"blank\" href=\"http://www.houstonisd.org/domain/42275\">Feature High School Alumni</a></li></ul><br/>",
+        "<li><a target=\"blank\" href=\"http://www.houstonisd.org/domain/42275\">Featured High School Alumni</a></li></ul><br/>",
         "* Friend in the photo is Grady who helped me design this website."
     ]
 };
@@ -250,7 +250,7 @@ tabs["Foxus"] = {
 tabs["BluetoothApp"] = {
     "heading": "BluetoothApp",
     "image": "Images/Bluetooth.png",
-    "description": ["Before joining Chrome I needed to refresh my knowledge of Anroid development and learn about Bluetooth technology. So I developed a small app that uses peer-to-peer architecture with Bluetooth Classic for transmission to allow two players to play wireless Tic-Tac-Toe.<br/>",
+    "description": ["Before joining Chrome I needed to refresh my knowledge of Android development and learn about Bluetooth technology. So I developed a small app that uses peer-to-peer architecture with Bluetooth Classic for transmission to allow two players to play wireless Tic-Tac-Toe.<br/>",
         "It's a small app but people find it pretty entertaining. The source code is available at my <a target=\"blank\" href=\"https://github.com/iankchristie/BtP2P\">Github</a>."
     ],
 };
