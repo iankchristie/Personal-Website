@@ -28,6 +28,12 @@ tabs["Professional"] = {
     ],
     "visited": 0
 };
+// Square
+tabs["SquareUp"] = {
+    "heading": "Square",
+    "image": "Images/appointments.jpg",
+    "description": ["My current position is developing an android app for Square Appointments. I'm learning a lot about android, dagger, Rxjava, buck & bazel. It's dope!"]
+};
 // Google
 tabs["Google"] = {
     "heading": "Google",
